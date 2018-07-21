@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+* {
+    font-family: 'Shadows Into Light', cursive;
+}
+ .wrapper{
+    width: 100%;
+    margin: 20px auto;
+    direction: ltr;
+} 
+.wrapper .todo h1{ 
+    text-align: center;
+}
+
+.wrapper .todo .list{
+
+    text-align: left;
+    max-height: 300px;
+    overflow: auto;
+    padding: 15px;
+}
+.wrapper .todo .tasks{
+    margin-top: 15px;
+}
+.wrapper .todo .list span{
+    font-size: 20px;
+}
+.wrapper .todo .list .done{
+
+   text-decoration: line-through;
+}
+.wrapper .todo .list a{
+    margin-left: 5px;
+}
+.wrapper .todo .add-new{
+    width: 60%;
+    margin:40px auto;
+    
+}
+.wrapper .todo .add-new button{
+
+    width: 50%;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 1px -1px 0 inset #746c6c;
+}
+.wrapper .todo .add-new button:hover{
+    background-color: #999;
+    color: #fff;
+    box-shadow: none;
+}
